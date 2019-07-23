@@ -1,0 +1,111 @@
+"Class","Object","Field","Default","Minimum","Maximum","Distribution","Type","Group","Constraint"
+"Sizing:Parameters","Sizing_C_Parameters","Heating Sizing Factor",1.33,0.931,1.729,"uniform","float",1,NA
+"Sizing:Parameters","Sizing_C_Parameters","Cooling Sizing Factor",1.33,0.931,1.729,"uniform","float",1,NA
+"Lights","Banquet_Flr_6_Lights","Watts per Zone Floor Area",13.99,9.793,18.187,"uniform","float",2,NA
+"Lights","Basement_Lights","Watts per Zone Floor Area",10.76,7.532,13.988,"uniform","float",2,NA
+"Lights","Cafe_Flr_1_Lights","Watts per Zone Floor Area",13.99,9.793,18.187,"uniform","float",2,NA
+"Lights","Corridor_Flr_3_Lights","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,NA
+"Lights","Corridor_Flr_6_Lights","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,NA
+"Lights","Dining_Flr_6_Lights","Watts per Zone Floor Area",13.99,9.793,18.187,"uniform","float",2,NA
+"Lights","Kitchen_Flr_6_Lights","Watts per Zone Floor Area",12.91,9.037,16.783,"uniform","float",2,NA
+"Lights","Laundry_Flr_1_Lights","Watts per Zone Floor Area",6.46,4.522,8.398,"uniform","float",2,NA
+"Lights","Lobby_Flr_1_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,NA
+"Lights","Retail_1_Flr_1_Lights","Watts per Zone Floor Area",16.14,11.298,20.982,"uniform","float",2,NA
+"Lights","Retail_2_Flr_1_Lights","Watts per Zone Floor Area",16.14,11.298,20.982,"uniform","float",2,NA
+"Lights","Room_1_Flr_3_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,NA
+"Lights","Room_1_Flr_6_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,NA
+"Lights","Room_2_Flr_3_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,NA
+"Lights","Room_2_Flr_6_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,NA
+"Lights","Room_3_Mult19_Flr_3_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,NA
+"Lights","Room_3_Mult9_Flr_6_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,NA
+"Lights","Room_4_Mult19_Flr_3_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,NA
+"Lights","Room_5_Flr_3_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,NA
+"Lights","Room_6_Flr_3_Lights","Watts per Zone Floor Area",11.84,8.288,15.392,"uniform","float",2,NA
+"Lights","Storage_Flr_1_Lights","Watts per Zone Floor Area",9.68,6.776,12.584,"uniform","float",2,NA
+"ElectricEquipment","Banquet_Flr_6_MiscPlug_Equip","Design Level",22492,15744.4,29239.6,"uniform","float",3,NA
+"ElectricEquipment","Basement_MiscPlug_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,NA
+"ElectricEquipment","Cafe_Flr_1_MiscPlug_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,NA
+"ElectricEquipment","Dining_Flr_6_MiscPlug_Equip","Design Level",22492,15744.4,29239.6,"uniform","float",3,NA
+"ElectricEquipment","Kitchen_Flr_6_ExhFan_Equip","Design Level",698,488.6,907.4,"uniform","float",3,NA
+"ElectricEquipment","Kitchen_Flr_6_MiscElec_Equip","Design Level",52481,36736.7,68225.3,"uniform","float",3,NA
+"ElectricEquipment","Laundry_Flr_1_MiscPlug_Equip","Design Level",4813,3369.1,6256.9,"uniform","float",3,NA
+"ElectricEquipment","Laundry_Flr_1_ExhFan_Equip","Design Level",87,60.9,113.1,"uniform","float",3,NA
+"ElectricEquipment","Lobby_Flr_1_MiscPlug_Equip","Watts per Zone Floor Area",8.07,5.649,10.491,"uniform","float",2,NA
+"ElectricEquipment","Mech_Flr_1_MiscPlug_Equip","Watts per Zone Floor Area",5.38,3.766,6.994,"uniform","float",2,NA
+"ElectricEquipment","Retail_1_Flr_1_MiscPlug_Equip","Watts per Zone Floor Area",10.76,7.532,13.988,"uniform","float",2,NA
+"ElectricEquipment","Retail_2_Flr_1_MiscPlug_Equip","Watts per Zone Floor Area",10.76,7.532,13.988,"uniform","float",2,NA
+"ElectricEquipment","Room_1_Flr_3_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,NA
+"ElectricEquipment","Room_1_Flr_6_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,NA
+"ElectricEquipment","Room_2_Flr_3_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,NA
+"ElectricEquipment","Room_2_Flr_6_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,NA
+"ElectricEquipment","Room_3_Mult19_Flr_3_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,NA
+"ElectricEquipment","Room_3_Mult9_Flr_6_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,NA
+"ElectricEquipment","Room_4_Mult19_Flr_3_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,NA
+"ElectricEquipment","Room_5_Flr_3_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,NA
+"ElectricEquipment","Room_6_Flr_3_PlugMisc_Equip","Watts per Zone Floor Area",14.3,10.01,18.59,"uniform","float",2,NA
+"ElectricEquipment","Storage_Flr_1_MiscPlug_Equip","Watts per Zone Floor Area",2.69,1.883,3.497,"uniform","float",2,NA
+"GasEquipment","Kitchen_Flr_6_MiscGas_Equip","Design Level",166606,116624.2,216587.8,"uniform","float",3,NA
+"GasEquipment","Laundry_Flr_1_MiscGas_Equip","Design Level",41818,29272.6,54363.4,"uniform","float",3,NA
+"ZoneInfiltration:DesignFlowRate","Banquet_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Cafe_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Corridor_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Corridor_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Dining_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Kitchen_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Laundry_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Lobby_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Mech_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Retail_1_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Retail_2_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Room_1_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Room_1_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Room_2_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Room_2_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Room_3_Mult19_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Room_3_Mult9_Flr_6_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Room_4_Mult19_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Room_5_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Room_6_Flr_3_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"ZoneInfiltration:DesignFlowRate","Storage_Flr_1_Infiltration","Flow per Exterior Surface Area",0.000302,0.000211,0.000393,"uniform","float",4,NA
+"Fan:VariableVolume","VAV WITH REHEAT_Fan","Fan Efficiency",0.61425,0.429975,0.798525,"uniform","float",5,NA
+"Fan:VariableVolume","VAV WITH REHEAT_Fan","Pressure Rise",1017.592,712.3144,1322.87,"uniform","float",5,NA
+"Fan:ConstantVolume","FLR_3_DOAS_Fan","Fan Efficiency",0.56875,0.398125,0.739375,"uniform","float",5,NA
+"Fan:ConstantVolume","FLR_3_DOAS_Fan","Pressure Rise",622,435.4,808.6,"uniform","float",5,NA
+"Fan:ConstantVolume","FLR_6_DOAS_Fan","Fan Efficiency",0.53625,0.375375,0.697215,"uniform","float",5,NA
+"Fan:ConstantVolume","FLR_6_DOAS_Fan","Pressure Rise",622,435.4,808.6,"uniform","float",5,NA
+"Schedule:Compact","CLGSETP_SCH","Field 4",30,21,39,"uniform","float",6,NA
+"Schedule:Compact","CLGSETP_SCH","Field 6",24,16.8,31.2,"uniform","float",6,NA
+"Schedule:Compact","HTGSETP_SCH","Field 4",16,11.2,20.8,"uniform","float",6,NA
+"Schedule:Compact","HTGSETP_SCH","Field 6",21,14.7,27.3,"uniform","float",6,NA
+"Schedule:Compact","Corr_CLGSETP_SCH","Field 4",30,21,39,"uniform","float",6,NA
+"Schedule:Compact","Corr_HTGSETP_SCH","Field 4",16,11.2,20.8,"uniform","float",6,NA
+"Schedule:Compact","Guest_CLGSETP_SCH","Field 4",24,16.8,31.2,"uniform","float",6,NA
+"Schedule:Compact","Guest_HTGSETP_SCH","Field 4",21,14.7,27.3,"uniform","float",6,NA
+"Schedule:Compact","Kitchen_CLGSETP_SCH","Field 4",30,21,39,"uniform","float",6,NA
+"Schedule:Compact","Kitchen_CLGSETP_SCH","Field 6",26,18.2,33.8,"uniform","float",6,NA
+"Schedule:Compact","Kitchen_HTGSETP_SCH","Field 4",16,11.2,20.8,"uniform","float",6,NA
+"Schedule:Compact","Kitchen_HTGSETP_SCH","Field 6",19,13.3,24.7,"uniform","float",6,NA
+"Schedule:Compact","MinOA_Sched","Field 4",0,0,0.3,"exponential","float",6,NA
+"Schedule:Compact","MinOA_Sched","Field 6",1,0.7,1.3,"uniform","float",6,NA
+"Schedule:Compact","Seasonal-Reset-Supply-Air-Temp-Sch","Field 4",13,9.1,16.9,"uniform","float",6,NA
+"Boiler:HotWater","HeatSys1 Boiler","Nominal Thermal Efficiency",0.78,0.546,0.99,"uniform","float",7,NA
+"Boiler:HotWater","HeatSys1 Boiler","Design Water Outlet Temperature",82.2,57.54,106.86,"uniform","float",7,NA
+"Chiller:Electric:EIR","CoolSys1 Chiller 1","Reference COP",5.5,3.85,7.15,"uniform","float",8,NA
+"Chiller:Electric:EIR","CoolSys1 Chiller 1","Minimum Part Load Ratio",0.15,0.105,0.195,"uniform","float",8,NA
+"Chiller:Electric:EIR","CoolSys1 Chiller 2","Reference COP",5.5,3.85,7.15,"uniform","float",8,NA
+"Chiller:Electric:EIR","CoolSys1 Chiller 2","Minimum Part Load Ratio",0.15,0.105,0.195,"uniform","float",8,NA
+"Chiller:Electric:EIR","CoolSys1 Chiller 2","Maximum Part Load Ratio",1,0.7,1,"uniform","float",8,NA
+"Pump:VariableSpeed","CoolSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",9,NA
+"Pump:VariableSpeed","HeatSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",9,NA
+"Schedule:Compact","CW-Loop-Temp-Schedule","Field 4",6.7,4.69,8.71,"uniform","float",6,NA
+"Schedule:Compact","HW-Loop-Temp-Schedule","Field 4",60,42,78,"uniform","float",6,NA
+"WaterHeater:Mixed","SWHSys1 Water Heater","Tank Volume",2,1.4,2.6,"uniform","float",10,NA
+"WaterHeater:Mixed","SWHSys1 Water Heater","Heater Maximum Capacity",845000,591500,1098500,"uniform","float",10,NA
+"WaterHeater:Mixed","SWHSys1 Water Heater","Heater Thermal Efficiency",0.8,0.56,0.999,"uniform","float",10,NA
+"Pump:VariableSpeed","SWHSys1 Pump","Rated Pump Head",179352,125546.4,233157.6,"uniform","float",9,NA
+"Schedule:Compact","Guest Room Water Equipment Hot Supply Temp Sched","Field 4",43.3,30.1,55.9,"uniform","float",6,NA
+"Schedule:Compact","Guest Room Water Equipment Temp Sched","Field 4",43.3,30.1,55.9,"uniform","float",6,NA
+"Schedule:Compact","Kitchen Water Equipment Hot Supply Temp Sched","Field 4",49,34.3,63.7,"uniform","float",6,NA
+"Schedule:Compact","Kitchen Water Equipment Temp Sched","Field 4",49,34.3,63.7,"uniform","float",6,NA
+"Schedule:Compact","SWHSys1 Water Heater Setpoint Temperature Schedule Name","Field 4",60,42,78,"uniform","float",6,NA
+"Schedule:Compact","SWHSys1-Loop-Temp-Schedule","Field 4",60,42,78,"uniform","float",6,NA
