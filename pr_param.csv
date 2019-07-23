@@ -1,0 +1,319 @@
+Class,Object,Field,Default,Minimum,Maximum,Distribution,Type,Group,Constraint,FieldName
+Coil:Cooling:DX:TwoSpeed,Dining ZN PSZ-AC 2spd DX AC Clg Coil 341kBtu/hr 9.5EER,4,3.46509885741508,2.425569200190556,4.504628514639604,uniform,float,,,High Speed Gross Rated Cooling COP
+Coil:Cooling:DX:TwoSpeed,Dining ZN PSZ-AC 2spd DX AC Clg Coil 341kBtu/hr 9.5EER,16,3.46509885741508,2.425569200190556,4.504628514639604,uniform,float,,,Low speed Gross Rated Cooling COP
+Coil:Cooling:DX:TwoSpeed,Dining ZN PSZ-AC 2spd DX AC Clg Coil 341kBtu/hr 9.5EER,31,10.0,7.0,13.0,uniform,float,,,Basin Heater Capacity
+Coil:Cooling:DX:TwoSpeed,Dining ZN PSZ-AC 2spd DX AC Clg Coil 341kBtu/hr 9.5EER,32,2.0,2,2.6,uniform,float,,,Basin Heater Setpoint Temperature
+Coil:Cooling:DX:TwoSpeed,Kitchen ZN PSZ-AC 2spd DX AC Clg Coil 159kBtu/hr 9.7EER,4,3.39955528890363,2.379688702232541,4.419421875574719,uniform,float,,,High Speed Gross Rated Cooling COP
+Coil:Cooling:DX:TwoSpeed,Kitchen ZN PSZ-AC 2spd DX AC Clg Coil 159kBtu/hr 9.7EER,16,3.39955528890363,2.379688702232541,4.419421875574719,uniform,float,,,Low speed Gross Rated Cooling COP
+Coil:Cooling:DX:TwoSpeed,Kitchen ZN PSZ-AC 2spd DX AC Clg Coil 159kBtu/hr 9.7EER,31,10.0,7.0,13.0,uniform,float,,,Basin Heater Capacity
+Coil:Cooling:DX:TwoSpeed,Kitchen ZN PSZ-AC 2spd DX AC Clg Coil 159kBtu/hr 9.7EER,32,2.0,2,2.6,uniform,float,,,Basin Heater Setpoint Temperature
+Coil:Heating:Electric,Dining ZN PSZ-AC No Backup Heat,2,1.0,0.7,1,uniform,float,,,Efficiency
+Coil:Heating:Electric,Kitchen ZN PSZ-AC No Backup Heat,2,1.0,0.7,1,uniform,float,,,Efficiency
+Coil:Heating:Fuel,Dining ZN PSZ-AC Gas Htg Coil,8,0.8,0.5599999999999999,1,uniform,float,,,Stage 1 Gas Burner Efficiency
+Coil:Heating:Fuel,Kitchen ZN PSZ-AC Gas Htg Coil,8,0.8,0.5599999999999999,1,uniform,float,,,Stage 1 Gas Burner Efficiency
+Controller:OutdoorAir,Dining ZN PSZ-AC OA Sys Controller,9,28.0,25.2,30.800000000000004,uniform,float,,,Economizer Maximum Limit Dry-Bulb Temperature
+Controller:OutdoorAir,Dining ZN PSZ-AC OA Sys Controller,10,64000.0,44800.0,83200.0,uniform,float,,,Economizer Maximum Limit Enthalpy
+Controller:OutdoorAir,Dining ZN PSZ-AC OA Sys Controller,13,-100.0,-90.0,-110.00000000000001,uniform,float,,,Economizer Minimum Limit Dry-Bulb Temperature
+Controller:OutdoorAir,Kitchen ZN PSZ-AC OA Sys Controller,9,28.0,25.2,30.800000000000004,uniform,float,,,Economizer Maximum Limit Dry-Bulb Temperature
+Controller:OutdoorAir,Kitchen ZN PSZ-AC OA Sys Controller,10,64000.0,44800.0,83200.0,uniform,float,,,Economizer Maximum Limit Enthalpy
+Controller:OutdoorAir,Kitchen ZN PSZ-AC OA Sys Controller,13,-100.0,-90.0,-110.00000000000001,uniform,float,,,Economizer Minimum Limit Dry-Bulb Temperature
+ElectricEquipment,FullServiceRestaurant Dining Elec Equip,5,64.927907633593,45.449535343515095,84.4062799236709,uniform,float,,,Watts per Zone Floor Area
+ElectricEquipment,FullServiceRestaurant Kitchen Elec Equip,5,403.969557939116,282.7786905573812,525.1604253208508,uniform,float,,,Watts per Zone Floor Area
+ElectricEquipment,Kitchen_Reach-in-Freezer,4,515.917,361.1419,670.6921000000001,uniform,float,,,Design Level
+ElectricEquipment,Kitchen_Reach-in-Refrigerator,4,851.67,596.169,1107.171,uniform,float,,,Design Level
+Exterior:Lights,NonDimming Exterior Lights Def,2,3695.0,2586.5,4803.5,uniform,float,,,Design Level
+Fan:ConstantVolume,Dining ZN PSZ-AC Fan,2,0.58175,0.523575,0.6399250000000001,uniform,float,,,Fan Total Efficiency
+Fan:ConstantVolume,Dining ZN PSZ-AC Fan,3,1110.9365386,777.6555770199999,1444.21750018,uniform,float,,,Pressure Rise
+Fan:ConstantVolume,Dining ZN PSZ-AC Fan,5,0.895,0.6265,1,uniform,float,,,Motor Efficiency
+Fan:ConstantVolume,Dining ZN PSZ-AC Fan,6,1.0,0.7,1,uniform,float,,,Motor In Airstream Fraction
+Fan:ConstantVolume,Kitchen ZN PSZ-AC Fan,2,0.56875,0.511875,0.625625,uniform,float,,,Fan Total Efficiency
+Fan:ConstantVolume,Kitchen ZN PSZ-AC Fan,3,622.722275,435.90559249999995,809.5389575,uniform,float,,,Pressure Rise
+Fan:ConstantVolume,Kitchen ZN PSZ-AC Fan,5,0.875,0.6124999999999999,1,uniform,float,,,Motor Efficiency
+Fan:ConstantVolume,Kitchen ZN PSZ-AC Fan,6,1.0,0.7,1,uniform,float,,,Motor In Airstream Fraction
+Lights,FullServiceRestaurant Dining Lights,5,22.6042118750904,15.822948312563279,29.38547543761752,uniform,float,,,Watts per Zone Floor Area
+Lights,FullServiceRestaurant Kitchen Lights,5,12.9166925000517,9.04168475003619,16.791700250067212,uniform,float,,,Watts per Zone Floor Area
+Material,100mm Normalweight concrete floor,2,0.1016,0.07111999999999999,0.13208,uniform,float,,,Thickness
+Material,100mm Normalweight concrete floor,3,2.31,1.617,3.003,uniform,float,,,Conductivity
+Material,100mm Normalweight concrete floor,4,2322.0,1625.3999999999999,3018.6,uniform,float,,,Density
+Material,100mm Normalweight concrete floor,5,832.0,582.4,1081.6000000000001,uniform,float,,,Specific Heat
+Material,100mm Normalweight concrete floor,6,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material,100mm Normalweight concrete floor,7,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Solar Absorptance
+Material,100mm Normalweight concrete floor,8,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Visible Absorptance
+Material,25mm Stucco,2,0.0254,0.017779999999999997,0.03302,uniform,float,,,Thickness
+Material,25mm Stucco,3,0.719999999999999,0.5039999999999992,0.9359999999999987,uniform,float,,,Conductivity
+Material,25mm Stucco,4,1855.99999999999,1299.199999999993,2412.799999999987,uniform,float,,,Density
+Material,25mm Stucco,5,839.999999999997,587.9999999999978,1091.9999999999961,uniform,float,,,Specific Heat
+Material,25mm Stucco,6,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material,25mm Stucco,7,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Solar Absorptance
+Material,25mm Stucco,8,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Visible Absorptance
+Material,4 in. Normalweight Concrete Floor,2,0.1016,0.07111999999999999,0.13208,uniform,float,,,Thickness
+Material,4 in. Normalweight Concrete Floor,3,2.31,1.617,3.003,uniform,float,,,Conductivity
+Material,4 in. Normalweight Concrete Floor,4,2321.99999999999,1625.3999999999928,3018.599999999987,uniform,float,,,Density
+Material,4 in. Normalweight Concrete Floor,5,831.999999999997,582.3999999999979,1081.5999999999963,uniform,float,,,Specific Heat
+Material,4 in. Normalweight Concrete Floor,6,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material,4 in. Normalweight Concrete Floor,7,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Solar Absorptance
+Material,4 in. Normalweight Concrete Floor,8,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Visible Absorptance
+Material,5/8 in. Gypsum Board,2,0.0159,0.01113,0.02067,uniform,float,,,Thickness
+Material,5/8 in. Gypsum Board,3,0.159999999999999,0.1119999999999993,0.2079999999999987,uniform,float,,,Conductivity
+Material,5/8 in. Gypsum Board,4,799.999999999999,559.9999999999992,1039.9999999999986,uniform,float,,,Density
+Material,5/8 in. Gypsum Board,5,1090.0,763.0,1417.0,uniform,float,,,Specific Heat
+Material,5/8 in. Gypsum Board,6,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material,5/8 in. Gypsum Board,7,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Solar Absorptance
+Material,5/8 in. Gypsum Board,8,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Visible Absorptance
+Material,6 in. Normalweight Concrete Floor,2,0.1524,0.10668,0.19812000000000002,uniform,float,,,Thickness
+Material,6 in. Normalweight Concrete Floor,3,2.31,1.617,3.003,uniform,float,,,Conductivity
+Material,6 in. Normalweight Concrete Floor,4,2321.99999999999,1625.3999999999928,3018.599999999987,uniform,float,,,Density
+Material,6 in. Normalweight Concrete Floor,5,831.999999999997,582.3999999999979,1081.5999999999963,uniform,float,,,Specific Heat
+Material,6 in. Normalweight Concrete Floor,6,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material,6 in. Normalweight Concrete Floor,7,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Solar Absorptance
+Material,6 in. Normalweight Concrete Floor,8,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Visible Absorptance
+Material,8 in. Concrete Block Basement Wall,2,0.2032,0.14223999999999998,0.26416,uniform,float,,,Thickness
+Material,8 in. Concrete Block Basement Wall,3,1.326,0.9282,1.7238000000000002,uniform,float,,,Conductivity
+Material,8 in. Concrete Block Basement Wall,4,1841.99999999999,1289.3999999999928,2394.599999999987,uniform,float,,,Density
+Material,8 in. Concrete Block Basement Wall,5,911.999999999999,638.3999999999993,1185.5999999999988,uniform,float,,,Specific Heat
+Material,8 in. Concrete Block Basement Wall,6,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material,8 in. Concrete Block Basement Wall,7,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Solar Absorptance
+Material,8 in. Concrete Block Basement Wall,8,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Visible Absorptance
+Material,F08 Metal surface,2,0.0008,0.00056,0.0010400000000000001,uniform,float,,,Thickness
+Material,F08 Metal surface,3,45.2800000000001,31.69600000000007,58.86400000000013,uniform,float,,,Conductivity
+Material,F08 Metal surface,4,7823.99999999999,5476.799999999993,10171.199999999988,uniform,float,,,Density
+Material,F08 Metal surface,5,500.0,350.0,650.0,uniform,float,,,Specific Heat
+Material,F08 Metal surface,6,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material,F08 Metal surface,7,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Solar Absorptance
+Material,F08 Metal surface,8,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Visible Absorptance
+Material,G01 13mm gypsum board,2,0.0127,0.008889999999999999,0.01651,uniform,float,,,Thickness
+Material,G01 13mm gypsum board,3,0.16,0.11199999999999999,0.20800000000000002,uniform,float,,,Conductivity
+Material,G01 13mm gypsum board,4,800.0,560.0,1040.0,uniform,float,,,Density
+Material,G01 13mm gypsum board,5,1090.0,763.0,1417.0,uniform,float,,,Specific Heat
+Material,G01 13mm gypsum board,6,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material,G01 13mm gypsum board,7,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Solar Absorptance
+Material,G01 13mm gypsum board,8,0.5,0.35,0.65,uniform,float,,,Visible Absorptance
+Material,G05 25mm wood,2,0.0254,0.017779999999999997,0.03302,uniform,float,,,Thickness
+Material,G05 25mm wood,3,0.15,0.105,0.195,uniform,float,,,Conductivity
+Material,G05 25mm wood,4,608.0,425.59999999999997,790.4,uniform,float,,,Density
+Material,G05 25mm wood,5,1630.0,1141.0,2119.0,uniform,float,,,Specific Heat
+Material,G05 25mm wood,6,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material,G05 25mm wood,7,0.5,0.35,0.65,uniform,float,,,Solar Absorptance
+Material,G05 25mm wood,8,0.5,0.35,0.65,uniform,float,,,Visible Absorptance
+Material,M10 200mm concrete block basement wall,2,0.2032,0.14223999999999998,0.26416,uniform,float,,,Thickness
+Material,M10 200mm concrete block basement wall,3,1.326,0.9282,1.7238000000000002,uniform,float,,,Conductivity
+Material,M10 200mm concrete block basement wall,4,1842.0,1289.3999999999999,2394.6,uniform,float,,,Density
+Material,M10 200mm concrete block basement wall,5,912.0,638.4,1185.6000000000001,uniform,float,,,Specific Heat
+Material,M10 200mm concrete block basement wall,6,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material,M10 200mm concrete block basement wall,7,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Solar Absorptance
+Material,M10 200mm concrete block basement wall,8,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Visible Absorptance
+Material,Std Wood 6inch,2,0.15,0.105,0.195,uniform,float,,,Thickness
+Material,Std Wood 6inch,3,0.12,0.08399999999999999,0.156,uniform,float,,,Conductivity
+Material,Std Wood 6inch,4,540.0,378.0,702.0,uniform,float,,,Density
+Material,Std Wood 6inch,5,1210.0,847.0,1573.0,uniform,float,,,Specific Heat
+Material,Std Wood 6inch,6,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material,Std Wood 6inch,7,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Solar Absorptance
+Material,Std Wood 6inch,8,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Visible Absorptance
+Material:NoMass,CP02 CARPET PAD,2,0.21648,0.151536,0.281424,uniform,float,,,Thermal Resistance
+Material:NoMass,CP02 CARPET PAD,3,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material:NoMass,CP02 CARPET PAD,4,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Solar Absorptance
+Material:NoMass,CP02 CARPET PAD,5,0.8,0.5599999999999999,1,uniform,float,,,Visible Absorptance
+Material:NoMass,Nonres_Floor_Insulation,2,2.88291975297193,2.018043827080351,3.747795678863509,uniform,float,,,Thermal Resistance
+Material:NoMass,Nonres_Floor_Insulation,3,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material:NoMass,Nonres_Floor_Insulation,4,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Solar Absorptance
+Material:NoMass,Nonres_Floor_Insulation,5,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Visible Absorptance
+Material:NoMass,Typical Carpet Pad,2,0.216479986995276,0.1515359908966932,0.28142398309385885,uniform,float,,,Thermal Resistance
+Material:NoMass,Typical Carpet Pad,3,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material:NoMass,Typical Carpet Pad,4,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Solar Absorptance
+Material:NoMass,Typical Carpet Pad,5,0.8,0.5599999999999999,1,uniform,float,,,Visible Absorptance
+Material:NoMass,Typical Insulation,2,0.0282222222222221,0.019755555555555467,0.03668888888888873,uniform,float,,,Thermal Resistance
+Material:NoMass,Typical Insulation,3,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material:NoMass,Typical Insulation,4,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Solar Absorptance
+Material:NoMass,Typical Insulation,5,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Visible Absorptance
+Material:NoMass,Typical Insulation R-0.54,2,0.0945032650887796,0.06615228556214571,0.12285424461541349,uniform,float,,,Thermal Resistance
+Material:NoMass,Typical Insulation R-0.54,3,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material:NoMass,Typical Insulation R-0.54,4,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Solar Absorptance
+Material:NoMass,Typical Insulation R-0.54,5,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Visible Absorptance
+Material:NoMass,Typical Insulation R-0.58,2,0.101874652714525,0.0713122569001675,0.13243704852888252,uniform,float,,,Thermal Resistance
+Material:NoMass,Typical Insulation R-0.58,3,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material:NoMass,Typical Insulation R-0.58,4,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Solar Absorptance
+Material:NoMass,Typical Insulation R-0.58,5,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Visible Absorptance
+Material:NoMass,Typical Insulation R-27.78,2,4.89189838823363,3.424328871763541,6.3594679047037195,uniform,float,,,Thermal Resistance
+Material:NoMass,Typical Insulation R-27.78,3,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material:NoMass,Typical Insulation R-27.78,4,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Solar Absorptance
+Material:NoMass,Typical Insulation R-27.78,5,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Visible Absorptance
+Material:NoMass,Typical Insulation R-5.89,2,1.03652198288505,0.725565388019535,1.3474785777505651,uniform,float,,,Thermal Resistance
+Material:NoMass,Typical Insulation R-5.89,3,0.9,0.63,0.99999,uniform,float,,,Thermal Absorptance
+Material:NoMass,Typical Insulation R-5.89,4,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Solar Absorptance
+Material:NoMass,Typical Insulation R-5.89,5,0.7,0.48999999999999994,0.9099999999999999,uniform,float,,,Visible Absorptance
+People,FullServiceRestaurant Dining People,5,0.753473729169681,0.5274316104187767,0.9795158479205853,uniform,float,,,People per Zone Floor Area
+People,FullServiceRestaurant Kitchen People,5,0.0538195520835486,0.03767368645848402,0.06996541770861318,uniform,float,,,People per Zone Floor Area
+PlantLoop,Main Service Water Loop,5,60.0,54.0,66.0,uniform,float,,,Maximum Loop Temperature
+PlantLoop,Main Service Water Loop,6,10.0,9.0,11.0,uniform,float,,,Minimum Loop Temperature
+PlantLoop,Service Water Loop,5,100.0,90.0,110.00000000000001,uniform,float,,,Maximum Loop Temperature
+PlantLoop,Service Water Loop,6,0.0,0.0,0.0,uniform,float,,,Minimum Loop Temperature
+Pump:ConstantSpeed,Booster Water Loop Pump,4,0.0,0.0,0.0,uniform,float,,,Design Pump Head
+Pump:ConstantSpeed,Booster Water Loop Pump,6,1.0,0.7,1,uniform,float,,,Motor Efficiency
+Pump:ConstantSpeed,Service Water Loop Pump,4,29891.0,20923.699999999997,38858.3,uniform,float,,,Design Pump Head
+Pump:ConstantSpeed,Service Water Loop Pump,6,0.825,0.5774999999999999,1,uniform,float,,,Motor Efficiency
+Refrigeration:Case,Kitchen ZN Display Case,3,23.8888888888889,16.72222222222223,31.05555555555557,uniform,float,,,Rated Ambient Temperature
+Refrigeration:Case,Kitchen ZN Display Case,4,55.0,38.5,71.5,uniform,float,,,Rated Ambient Relative Humidity
+Refrigeration:Case,Kitchen ZN Display Case,5,734.0,513.8,954.2,uniform,float,,,Rated Total Cooling Capacity per Unit Length
+Refrigeration:Case,Kitchen ZN Display Case,6,0.08,0.055999999999999994,0.10400000000000001,uniform,float,,,Rated Latent Heat Ratio
+Refrigeration:Case,Kitchen ZN Display Case,7,0.85,0.595,1,uniform,float,,,Rated Runtime Fraction
+Refrigeration:Case,Kitchen ZN Display Case,8,3.05,2.135,3.965,uniform,float,,,Case Length
+Refrigeration:Case,Kitchen ZN Display Case,9,2.00000000000006,1.4000000000000419,2.6000000000000782,uniform,float,,,Case Operating Temperature
+Refrigeration:Case,Kitchen ZN Display Case,12,66.0,46.199999999999996,85.8,uniform,float,,,Standard Case Fan Power per Unit Length
+Refrigeration:Case,Kitchen ZN Display Case,13,66.0,46.199999999999996,85.8,uniform,float,,,Operating Case Fan Power per Unit Length
+Refrigeration:Case,Kitchen ZN Display Case,14,33.0,23.099999999999998,42.9,uniform,float,,,Standard Case Lighting Power per Unit Length
+Refrigeration:Case,Kitchen ZN Display Case,24,0.0,0.0,0.0,uniform,float,,,Case Defrost Power per Unit Length
+Refrigeration:Case,Kitchen ZN Walkin Freezer,3,23.8888888888889,16.72222222222223,31.05555555555557,uniform,float,,,Rated Ambient Temperature
+Refrigeration:Case,Kitchen ZN Walkin Freezer,4,55.0,38.5,71.5,uniform,float,,,Rated Ambient Relative Humidity
+Refrigeration:Case,Kitchen ZN Walkin Freezer,5,688.0,481.59999999999997,894.4,uniform,float,,,Rated Total Cooling Capacity per Unit Length
+Refrigeration:Case,Kitchen ZN Walkin Freezer,6,0.1,0.06999999999999999,0.13,uniform,float,,,Rated Latent Heat Ratio
+Refrigeration:Case,Kitchen ZN Walkin Freezer,7,0.4,0.27999999999999997,0.52,uniform,float,,,Rated Runtime Fraction
+Refrigeration:Case,Kitchen ZN Walkin Freezer,8,2.44,1.708,3.172,uniform,float,,,Case Length
+Refrigeration:Case,Kitchen ZN Walkin Freezer,9,-23.0,-16.099999999999998,-29.900000000000002,uniform,float,,,Case Operating Temperature
+Refrigeration:Case,Kitchen ZN Walkin Freezer,12,74.0,51.8,81.12873121495326,uniform,float,,,Standard Case Fan Power per Unit Length
+Refrigeration:Case,Kitchen ZN Walkin Freezer,13,74.0,51.8,96.2,uniform,float,,,Operating Case Fan Power per Unit Length
+Refrigeration:Case,Kitchen ZN Walkin Freezer,14,33.0,23.099999999999998,36.17902878504672,uniform,float,,,Standard Case Lighting Power per Unit Length
+Refrigeration:Case,Kitchen ZN Walkin Freezer,24,820.0,574.0,1066.0,uniform,float,,,Case Defrost Power per Unit Length
+Refrigeration:Condenser:AirCooled,Refrigeration Condenser Air Cooled 1,4,330.0,230.99999999999997,429.0,uniform,float,,,Rated Fan Power
+Refrigeration:Condenser:AirCooled,Refrigeration Condenser Air Cooled 2,4,330.0,230.99999999999997,429.0,uniform,float,,,Rated Fan Power
+Schedule:Day:Interval,RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Default,4,26.0,28.22222222222222,30.444444444444443,uniform,float,,,Value Until Time 1
+Schedule:Day:Interval,RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Default|Sat|Wkdy Day,4,26.0,28.22222222222222,30.444444444444443,uniform,float,,,Value Until Time 1
+Schedule:Day:Interval,RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Summer Design Day,4,26.0,28.22222222222222,30.444444444444443,uniform,float,,,Value Until Time 1
+Schedule:Day:Interval,RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Summer Design Day,6,30.0,32.22222222222222,34.44444444444444,uniform,float,,,Value Until Time 2
+Schedule:Day:Interval,RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Summer Design Day,8,28.0,30.22222222222222,32.44444444444444,uniform,float,,,Value Until Time 3
+Schedule:Day:Interval,RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Summer Design Day,10,26.0,28.22222222222222,30.444444444444443,uniform,float,,,Value Until Time 4
+Schedule:Day:Interval,RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Winter Design Day,4,30.0,32.22222222222222,34.44444444444444,uniform,float,,,Value Until Time 1
+Schedule:Day:Interval,RestaurantSitDown CLGSETP_SCH_NO_SETBACK Default,4,24.0,26.22222222222222,28.444444444444443,uniform,float,,,Value Until Time 1
+Schedule:Day:Interval,RestaurantSitDown CLGSETP_SCH_NO_SETBACK Default|Sat|Wkdy Day,4,24.0,26.22222222222222,28.444444444444443,uniform,float,,,Value Until Time 1
+Schedule:Day:Interval,RestaurantSitDown CLGSETP_SCH_NO_SETBACK Summer Design Day,4,30.0,32.22222222222222,34.44444444444444,uniform,float,,,Value Until Time 1
+Schedule:Day:Interval,RestaurantSitDown CLGSETP_SCH_NO_SETBACK Summer Design Day,6,26.0,28.22222222222222,30.444444444444443,uniform,float,,,Value Until Time 2
+Schedule:Day:Interval,RestaurantSitDown CLGSETP_SCH_NO_SETBACK Summer Design Day,8,24.0,26.22222222222222,28.444444444444443,uniform,float,,,Value Until Time 3
+Schedule:Day:Interval,RestaurantSitDown CLGSETP_SCH_NO_SETBACK Winter Design Day,4,30.0,32.22222222222222,34.44444444444444,uniform,float,,,Value Until Time 1
+Schedule:Day:Interval,RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default,4,19.0,16.77777777777778,14.555555555555555,uniform,float,,,Value Until Time 1
+Schedule:Day:Interval,RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default,6,15.6,13.377777777777776,11.155555555555555,uniform,float,,,Value Until Time 2
+Schedule:Day:Interval,RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default,8,19.0,16.77777777777778,14.555555555555555,uniform,float,,,Value Until Time 3
+Schedule:Day:Interval,RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day,4,19.0,16.77777777777778,14.555555555555555,uniform,float,,,Value Until Time 1
+Schedule:Day:Interval,RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day,6,15.6,13.377777777777776,11.155555555555555,uniform,float,,,Value Until Time 2
+Schedule:Day:Interval,RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day,8,19.0,16.77777777777778,14.555555555555555,uniform,float,,,Value Until Time 3
+Schedule:Day:Interval,RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Summer Design Day,4,15.6,13.377777777777776,11.155555555555555,uniform,float,,,Value Until Time 1
+Schedule:Day:Interval,RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Winter Design Day,4,19.0,16.77777777777778,14.555555555555555,uniform,float,,,Value Until Time 1
+Schedule:Day:Interval,RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default,4,15.6,13.377777777777776,11.155555555555555,uniform,float,,,Value Until Time 1
+Schedule:Day:Interval,RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default,6,21.0,18.77777777777778,16.555555555555557,uniform,float,,,Value Until Time 2
+Schedule:Day:Interval,RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day,4,15.6,13.377777777777776,11.155555555555555,uniform,float,,,Value Until Time 1
+Schedule:Day:Interval,RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day,6,21.0,18.77777777777778,16.555555555555557,uniform,float,,,Value Until Time 2
+Schedule:Day:Interval,RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Summer Design Day,4,15.6,13.377777777777776,11.155555555555555,uniform,float,,,Value Until Time 1
+Schedule:Day:Interval,RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Winter Design Day,4,21.0,18.77777777777778,16.555555555555557,uniform,float,,,Value Until Time 1
+Sizing:Parameters,,0,1.2,0.84,1.56,uniform,float,,,Heating Sizing Factor
+Sizing:Parameters,,1,1.2,0.84,1.56,uniform,float,,,Cooling Sizing Factor
+Sizing:System,Dining ZN PSZ-AC,4,7.0,6.3,7.700000000000001,uniform,float,,,Preheat Design Temperature
+Sizing:System,Dining ZN PSZ-AC,5,0.008,0.0056,0.010400000000000001,uniform,float,,,Preheat Design Humidity Ratio
+Sizing:System,Dining ZN PSZ-AC,6,12.8,11.520000000000001,14.080000000000002,uniform,float,,,Precool Design Temperature
+Sizing:System,Dining ZN PSZ-AC,7,0.008,0.0056,0.010400000000000001,uniform,float,,,Precool Design Humidity Ratio
+Sizing:System,Dining ZN PSZ-AC,8,12.8,11.520000000000001,14.080000000000002,uniform,float,,,Central Cooling Design Supply Air Temperature
+Sizing:System,Dining ZN PSZ-AC,9,40.0,36.0,44.0,uniform,float,,,Central Heating Design Supply Air Temperature
+Sizing:System,Dining ZN PSZ-AC,13,0.0085,0.00595,0.01105,uniform,float,,,Central Cooling Design Supply Air Humidity Ratio
+Sizing:System,Dining ZN PSZ-AC,14,0.008,0.0056,0.010400000000000001,uniform,float,,,Central Heating Design Supply Air Humidity Ratio
+Sizing:System,Dining ZN PSZ-AC,17,0.0099676501,0.006977355069999999,0.012957945129999999,uniform,float,,,Cooling Supply Air Flow Rate Per Floor Area
+Sizing:System,Dining ZN PSZ-AC,18,1.0,0.7,1.3,uniform,float,,,Cooling Fraction of Autosized Cooling Supply Air Flow Rate
+Sizing:System,Dining ZN PSZ-AC,19,3.9475456e-05,2.7632819199999996e-05,5.13180928e-05,uniform,float,,,Cooling Supply Air Flow Rate Per Unit Cooling Capacity
+Sizing:System,Dining ZN PSZ-AC,22,0.0099676501,0.006977355069999999,0.012957945129999999,uniform,float,,,Heating Supply Air Flow Rate Per Floor Area
+Sizing:System,Dining ZN PSZ-AC,23,1.0,0.7,1.3,uniform,float,,,Heating Fraction of Autosized Heating Supply Air Flow Rate
+Sizing:System,Dining ZN PSZ-AC,24,1.0,0.7,1.3,uniform,float,,,Heating Fraction of Autosized Cooling Supply Air Flow Rate
+Sizing:System,Dining ZN PSZ-AC,25,3.1588213e-05,2.21117491e-05,4.10646769e-05,uniform,float,,,Heating Supply Air Flow Rate Per Unit Heating Capacity
+Sizing:System,Dining ZN PSZ-AC,27,1.0,0.7,1.3,uniform,float,,,Zone Maximum Outdoor Air Fraction
+Sizing:System,Dining ZN PSZ-AC,30,234.7,164.29,305.11,uniform,float,,,Cooling Design Capacity Per Floor Area
+Sizing:System,Dining ZN PSZ-AC,31,1.0,0.7,1.3,uniform,float,,,Fraction of Autosized Cooling Design Capacity
+Sizing:System,Dining ZN PSZ-AC,34,157.0,109.89999999999999,204.1,uniform,float,,,Heating Design Capacity Per Floor Area
+Sizing:System,Dining ZN PSZ-AC,35,1.0,0.7,1.3,uniform,float,,,Fraction of Autosized Heating Design Capacity
+Sizing:System,Kitchen ZN PSZ-AC,4,7.0,6.3,7.700000000000001,uniform,float,,,Preheat Design Temperature
+Sizing:System,Kitchen ZN PSZ-AC,5,0.008,0.0056,0.010400000000000001,uniform,float,,,Preheat Design Humidity Ratio
+Sizing:System,Kitchen ZN PSZ-AC,6,12.8,11.520000000000001,14.080000000000002,uniform,float,,,Precool Design Temperature
+Sizing:System,Kitchen ZN PSZ-AC,7,0.008,0.0056,0.010400000000000001,uniform,float,,,Precool Design Humidity Ratio
+Sizing:System,Kitchen ZN PSZ-AC,8,12.8,11.520000000000001,14.080000000000002,uniform,float,,,Central Cooling Design Supply Air Temperature
+Sizing:System,Kitchen ZN PSZ-AC,9,40.0,36.0,44.0,uniform,float,,,Central Heating Design Supply Air Temperature
+Sizing:System,Kitchen ZN PSZ-AC,13,0.0085,0.00595,0.01105,uniform,float,,,Central Cooling Design Supply Air Humidity Ratio
+Sizing:System,Kitchen ZN PSZ-AC,14,0.008,0.0056,0.010400000000000001,uniform,float,,,Central Heating Design Supply Air Humidity Ratio
+Sizing:System,Kitchen ZN PSZ-AC,17,0.0099676501,0.006977355069999999,0.012957945129999999,uniform,float,,,Cooling Supply Air Flow Rate Per Floor Area
+Sizing:System,Kitchen ZN PSZ-AC,18,1.0,0.7,1.3,uniform,float,,,Cooling Fraction of Autosized Cooling Supply Air Flow Rate
+Sizing:System,Kitchen ZN PSZ-AC,19,3.9475456e-05,2.7632819199999996e-05,5.13180928e-05,uniform,float,,,Cooling Supply Air Flow Rate Per Unit Cooling Capacity
+Sizing:System,Kitchen ZN PSZ-AC,22,0.0099676501,0.006977355069999999,0.012957945129999999,uniform,float,,,Heating Supply Air Flow Rate Per Floor Area
+Sizing:System,Kitchen ZN PSZ-AC,23,1.0,0.7,1.3,uniform,float,,,Heating Fraction of Autosized Heating Supply Air Flow Rate
+Sizing:System,Kitchen ZN PSZ-AC,24,1.0,0.7,1.3,uniform,float,,,Heating Fraction of Autosized Cooling Supply Air Flow Rate
+Sizing:System,Kitchen ZN PSZ-AC,25,3.1588213e-05,2.21117491e-05,4.10646769e-05,uniform,float,,,Heating Supply Air Flow Rate Per Unit Heating Capacity
+Sizing:System,Kitchen ZN PSZ-AC,27,1.0,0.7,1.3,uniform,float,,,Zone Maximum Outdoor Air Fraction
+Sizing:System,Kitchen ZN PSZ-AC,30,234.7,164.29,305.11,uniform,float,,,Cooling Design Capacity Per Floor Area
+Sizing:System,Kitchen ZN PSZ-AC,31,1.0,0.7,1.3,uniform,float,,,Fraction of Autosized Cooling Design Capacity
+Sizing:System,Kitchen ZN PSZ-AC,34,157.0,109.89999999999999,204.1,uniform,float,,,Heating Design Capacity Per Floor Area
+Sizing:System,Kitchen ZN PSZ-AC,35,1.0,0.7,1.3,uniform,float,,,Fraction of Autosized Heating Design Capacity
+Sizing:Zone,Dining ZN,2,12.8,11.520000000000001,14.080000000000002,uniform,float,,,Zone Cooling Design Supply Air Temperature
+Sizing:Zone,Dining ZN,3,11.11,9.999,12.221,uniform,float,,,Zone Cooling Design Supply Air Temperature Difference
+Sizing:Zone,Dining ZN,5,40.0,36.0,44.0,uniform,float,,,Zone Heating Design Supply Air Temperature
+Sizing:Zone,Dining ZN,6,11.11,9.999,12.221,uniform,float,,,Zone Heating Design Supply Air Temperature Difference
+Sizing:Zone,Dining ZN,7,0.0085,0.0076500000000000005,0.00935,uniform,float,,,Zone Cooling Design Supply Air Humidity Ratio
+Sizing:Zone,Dining ZN,8,0.008,0.007200000000000001,0.0088,uniform,float,,,Zone Heating Design Supply Air Humidity Ratio
+Sizing:Zone,Dining ZN,14,0.007111554,0.0064003986,0.0078227094,uniform,float,,,Cooling Minimum Air Flow per Zone Floor Area
+Sizing:Zone,Dining ZN,19,0.002032,0.0018288,0.0022352,uniform,float,,,Heating Maximum Air Flow per Zone Floor Area
+Sizing:Zone,Dining ZN,20,0.1415762,0.12741858,0.15573382000000002,uniform,float,,,Heating Maximum Air Flow
+Sizing:Zone,Dining ZN,21,0.3,0.27,0.33,uniform,float,,,Heating Maximum Air Flow Fraction
+Sizing:Zone,Kitchen ZN,2,12.8,11.520000000000001,14.080000000000002,uniform,float,,,Zone Cooling Design Supply Air Temperature
+Sizing:Zone,Kitchen ZN,3,11.11,9.999,12.221,uniform,float,,,Zone Cooling Design Supply Air Temperature Difference
+Sizing:Zone,Kitchen ZN,5,40.0,36.0,44.0,uniform,float,,,Zone Heating Design Supply Air Temperature
+Sizing:Zone,Kitchen ZN,6,11.11,9.999,12.221,uniform,float,,,Zone Heating Design Supply Air Temperature Difference
+Sizing:Zone,Kitchen ZN,7,0.0085,0.0076500000000000005,0.00935,uniform,float,,,Zone Cooling Design Supply Air Humidity Ratio
+Sizing:Zone,Kitchen ZN,8,0.008,0.007200000000000001,0.0088,uniform,float,,,Zone Heating Design Supply Air Humidity Ratio
+Sizing:Zone,Kitchen ZN,14,0.0,0.0,0.0,uniform,float,,,Cooling Minimum Air Flow per Zone Floor Area
+Sizing:Zone,Kitchen ZN,19,0.002032,0.0018288,0.0022352,uniform,float,,,Heating Maximum Air Flow per Zone Floor Area
+Sizing:Zone,Kitchen ZN,20,0.1415762,0.12741858,0.15573382000000002,uniform,float,,,Heating Maximum Air Flow
+Sizing:Zone,Kitchen ZN,21,0.3,0.27,0.33,uniform,float,,,Heating Maximum Air Flow Fraction
+Sizing:Zone,attic ZN,2,14.0,12.6,15.400000000000002,uniform,float,,,Zone Cooling Design Supply Air Temperature
+Sizing:Zone,attic ZN,3,11.11,9.999,12.221,uniform,float,,,Zone Cooling Design Supply Air Temperature Difference
+Sizing:Zone,attic ZN,5,40.0,36.0,44.0,uniform,float,,,Zone Heating Design Supply Air Temperature
+Sizing:Zone,attic ZN,6,11.11,9.999,12.221,uniform,float,,,Zone Heating Design Supply Air Temperature Difference
+Sizing:Zone,attic ZN,7,0.0085,0.0076500000000000005,0.00935,uniform,float,,,Zone Cooling Design Supply Air Humidity Ratio
+Sizing:Zone,attic ZN,8,0.008,0.007200000000000001,0.0088,uniform,float,,,Zone Heating Design Supply Air Humidity Ratio
+Sizing:Zone,attic ZN,14,0.000762,0.0006858,0.0008382000000000001,uniform,float,,,Cooling Minimum Air Flow per Zone Floor Area
+Sizing:Zone,attic ZN,19,0.002032,0.0018288,0.0022352,uniform,float,,,Heating Maximum Air Flow per Zone Floor Area
+Sizing:Zone,attic ZN,20,0.1415762,0.12741858,0.15573382000000002,uniform,float,,,Heating Maximum Air Flow
+Sizing:Zone,attic ZN,21,0.3,0.27,0.33,uniform,float,,,Heating Maximum Air Flow Fraction
+WaterHeater:Mixed,200.0gal Natural Gas Water Heater - 200kBtu/hr 0.807 Therm Eff,1,0.75708235679397,0.529957649755779,0.9842070638321609,uniform,float,,,Tank Volume
+WaterHeater:Mixed,200.0gal Natural Gas Water Heater - 200kBtu/hr 0.807 Therm Eff,6,58614.2140344444,41029.94982411108,76198.47824477773,uniform,float,,,Heater Maximum Capacity
+WaterHeater:Mixed,200.0gal Natural Gas Water Heater - 200kBtu/hr 0.807 Therm Eff,11,0.807222539674442,0.5650557777721094,1,uniform,float,,,Heater Thermal Efficiency
+WaterHeater:Mixed,6.0gal Electricity Booster Water Heater - 27kBtu/hr 1.0 Therm Eff,1,0.0227124707038191,0.015898729492673368,0.02952621191496483,uniform,float,,,Tank Volume
+WaterHeater:Mixed,6.0gal Electricity Booster Water Heater - 27kBtu/hr 1.0 Therm Eff,6,7999.96100249115,5599.9727017438045,10399.949303238494,uniform,float,,,Heater Maximum Capacity
+WaterHeater:Mixed,6.0gal Electricity Booster Water Heater - 27kBtu/hr 1.0 Therm Eff,11,1.0,0.7,1,uniform,float,,,Heater Thermal Efficiency
+WindowMaterial:Glazing,Clear 3mm,3,0.00299999999999999,0.002099999999999993,0.0038999999999999872,uniform,float,,,Thickness
+WindowMaterial:Glazing,Clear 3mm,4,0.837,0.5859,0.9111526195899773,uniform,float,,,Solar Transmittance at Normal Incidence
+WindowMaterial:Glazing,Clear 3mm,5,0.075,0.0525,0.08883738041002279,uniform,float,,,Front Side Solar Reflectance at Normal Incidence
+WindowMaterial:Glazing,Clear 3mm,6,0.075,0.0525,0.08883738041002279,uniform,float,,,Back Side Solar Reflectance at Normal Incidence
+WindowMaterial:Glazing,Clear 3mm,7,0.898,0.6285999999999999,0.9047226997195332,uniform,float,,,Visible Transmittance at Normal Incidence
+WindowMaterial:Glazing,Clear 3mm,8,0.081,0.0567,0.09526730028046686,uniform,float,,,Front Side Visible Reflectance at Normal Incidence
+WindowMaterial:Glazing,Clear 3mm,9,0.081,0.0567,0.09526730028046686,uniform,float,,,Back Side Visible Reflectance at Normal Incidence
+WindowMaterial:Glazing,Clear 3mm,11,0.84,0.588,0.99999,uniform,float,,,Front Side Infrared Hemispherical Emissivity
+WindowMaterial:Glazing,Clear 3mm,12,0.84,0.588,0.99999,uniform,float,,,Back Side Infrared Hemispherical Emissivity
+WindowMaterial:Glazing,Clear 3mm,13,0.9,0.63,1.1700000000000002,uniform,float,,,Conductivity
+WindowMaterial:Glazing,Clear 3mm,14,1.0,0.7,1,uniform,float,,,Dirt Correction Factor for Solar and Visible Transmittance
+WindowMaterial:Glazing,ECREF-1 COLORED 6MM,3,0.00599999999999998,0.004199999999999986,0.0077999999999999745,uniform,float,,,Thickness
+WindowMaterial:Glazing,ECREF-1 COLORED 6MM,4,0.099,0.0693,0.1287,uniform,float,,,Solar Transmittance at Normal Incidence
+WindowMaterial:Glazing,ECREF-1 COLORED 6MM,5,0.219,0.1533,0.2847,uniform,float,,,Front Side Solar Reflectance at Normal Incidence
+WindowMaterial:Glazing,ECREF-1 COLORED 6MM,6,0.219,0.1533,0.2847,uniform,float,,,Back Side Solar Reflectance at Normal Incidence
+WindowMaterial:Glazing,ECREF-1 COLORED 6MM,7,0.155,0.1085,0.2015,uniform,float,,,Visible Transmittance at Normal Incidence
+WindowMaterial:Glazing,ECREF-1 COLORED 6MM,8,0.073,0.05109999999999999,0.0949,uniform,float,,,Front Side Visible Reflectance at Normal Incidence
+WindowMaterial:Glazing,ECREF-1 COLORED 6MM,9,0.073,0.05109999999999999,0.0949,uniform,float,,,Back Side Visible Reflectance at Normal Incidence
+WindowMaterial:Glazing,ECREF-1 COLORED 6MM,11,0.84,0.588,0.99999,uniform,float,,,Front Side Infrared Hemispherical Emissivity
+WindowMaterial:Glazing,ECREF-1 COLORED 6MM,12,0.84,0.588,0.99999,uniform,float,,,Back Side Infrared Hemispherical Emissivity
+WindowMaterial:Glazing,ECREF-1 COLORED 6MM,13,0.9,0.63,1.1700000000000002,uniform,float,,,Conductivity
+WindowMaterial:Glazing,ECREF-1 COLORED 6MM,14,1.0,0.7,1,uniform,float,,,Dirt Correction Factor for Solar and Visible Transmittance
+WindowMaterial:Glazing,REF B CLEAR HI 6MM,3,0.00599999999999998,0.004199999999999986,0.0077999999999999745,uniform,float,,,Thickness
+WindowMaterial:Glazing,REF B CLEAR HI 6MM,4,0.24,0.16799999999999998,0.312,uniform,float,,,Solar Transmittance at Normal Incidence
+WindowMaterial:Glazing,REF B CLEAR HI 6MM,5,0.16,0.11199999999999999,0.20800000000000002,uniform,float,,,Front Side Solar Reflectance at Normal Incidence
+WindowMaterial:Glazing,REF B CLEAR HI 6MM,6,0.32,0.22399999999999998,0.41600000000000004,uniform,float,,,Back Side Solar Reflectance at Normal Incidence
+WindowMaterial:Glazing,REF B CLEAR HI 6MM,7,0.3,0.21,0.39,uniform,float,,,Visible Transmittance at Normal Incidence
+WindowMaterial:Glazing,REF B CLEAR HI 6MM,8,0.16,0.11199999999999999,0.20800000000000002,uniform,float,,,Front Side Visible Reflectance at Normal Incidence
+WindowMaterial:Glazing,REF B CLEAR HI 6MM,9,0.29,0.20299999999999999,0.377,uniform,float,,,Back Side Visible Reflectance at Normal Incidence
+WindowMaterial:Glazing,REF B CLEAR HI 6MM,11,0.84,0.588,0.99999,uniform,float,,,Front Side Infrared Hemispherical Emissivity
+WindowMaterial:Glazing,REF B CLEAR HI 6MM,12,0.6,0.42,0.78,uniform,float,,,Back Side Infrared Hemispherical Emissivity
+WindowMaterial:Glazing,REF B CLEAR HI 6MM,13,0.9,0.63,1.1700000000000002,uniform,float,,,Conductivity
+WindowMaterial:Glazing,REF B CLEAR HI 6MM,14,1.0,0.7,1,uniform,float,,,Dirt Correction Factor for Solar and Visible Transmittance
+ZoneInfiltration:DesignFlowRate,Dining Infiltration,6,0.00102523210129173,0.000717662470904211,0.001332801731679249,uniform,float,,,Flow per Exterior Surface Area
+ZoneInfiltration:DesignFlowRate,Dining door Infiltration,4,0.614474994,0.4301324958,0.7988174922000001,uniform,float,,,Design Flow Rate
+ZoneInfiltration:DesignFlowRate,Kitchen Infiltration,6,0.00102523210129173,0.000717662470904211,0.001332801731679249,uniform,float,,,Flow per Exterior Surface Area
+ZoneInfiltration:DesignFlowRate,Space Infiltration Design Flow Rate 2,4,0.2378,0.16646,0.30914,uniform,float,,,Design Flow Rate
