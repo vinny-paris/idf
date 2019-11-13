@@ -1,0 +1,308 @@
+A,Coil:Cooling:DX:TwoSpeed Dining ZN PSZ-AC 2spd DX AC Clg Coil 341kBtu/hr 9.5EER 4,3.46509885741508
+B,Coil:Cooling:DX:TwoSpeed Dining ZN PSZ-AC 2spd DX AC Clg Coil 341kBtu/hr 9.5EER 16,3.46509885741508
+C,Coil:Cooling:DX:TwoSpeed Dining ZN PSZ-AC 2spd DX AC Clg Coil 341kBtu/hr 9.5EER 31,10.0
+D,Coil:Cooling:DX:TwoSpeed Dining ZN PSZ-AC 2spd DX AC Clg Coil 341kBtu/hr 9.5EER 32,2.0
+E,Coil:Cooling:DX:TwoSpeed Kitchen ZN PSZ-AC 2spd DX AC Clg Coil 159kBtu/hr 9.7EER 4,3.39955528890363
+F,Coil:Cooling:DX:TwoSpeed Kitchen ZN PSZ-AC 2spd DX AC Clg Coil 159kBtu/hr 9.7EER 16,3.39955528890363
+G,Coil:Cooling:DX:TwoSpeed Kitchen ZN PSZ-AC 2spd DX AC Clg Coil 159kBtu/hr 9.7EER 31,10.0
+H,Coil:Cooling:DX:TwoSpeed Kitchen ZN PSZ-AC 2spd DX AC Clg Coil 159kBtu/hr 9.7EER 32,2.0
+I,Coil:Heating:Electric Dining ZN PSZ-AC No Backup Heat 2,1.0
+J,Coil:Heating:Electric Kitchen ZN PSZ-AC No Backup Heat 2,1.0
+K,Coil:Heating:Fuel Dining ZN PSZ-AC Gas Htg Coil 8,0.8
+L,Coil:Heating:Fuel Kitchen ZN PSZ-AC Gas Htg Coil 8,0.8
+M,Controller:OutdoorAir Dining ZN PSZ-AC OA Sys Controller 9,28.0
+N,Controller:OutdoorAir Dining ZN PSZ-AC OA Sys Controller 10,64000.0
+O,Controller:OutdoorAir Dining ZN PSZ-AC OA Sys Controller 13,-100.0
+P,Controller:OutdoorAir Kitchen ZN PSZ-AC OA Sys Controller 9,28.0
+Q,Controller:OutdoorAir Kitchen ZN PSZ-AC OA Sys Controller 10,64000.0
+R,Controller:OutdoorAir Kitchen ZN PSZ-AC OA Sys Controller 13,-100.0
+S,ElectricEquipment FullServiceRestaurant Dining Elec Equip 5,64.927907633593
+T,ElectricEquipment FullServiceRestaurant Kitchen Elec Equip 5,403.969557939116
+U,ElectricEquipment Kitchen_Reach-in-Freezer 4,515.917
+V,ElectricEquipment Kitchen_Reach-in-Refrigerator 4,851.67
+W,Exterior:Lights NonDimming Exterior Lights Def 2,3695.0
+X,Fan:ConstantVolume Dining ZN PSZ-AC Fan 2,0.58175
+Y,Fan:ConstantVolume Dining ZN PSZ-AC Fan 3,1110.9365386
+Z,Fan:ConstantVolume Dining ZN PSZ-AC Fan 5,0.895
+AA,Fan:ConstantVolume Dining ZN PSZ-AC Fan 6,1.0
+AB,Fan:ConstantVolume Kitchen ZN PSZ-AC Fan 2,0.56875
+AC,Fan:ConstantVolume Kitchen ZN PSZ-AC Fan 3,622.722275
+AD,Fan:ConstantVolume Kitchen ZN PSZ-AC Fan 5,0.875
+AE,Fan:ConstantVolume Kitchen ZN PSZ-AC Fan 6,1.0
+AF,Lights FullServiceRestaurant Dining Lights 5,22.6042118750904
+AG,Lights FullServiceRestaurant Kitchen Lights 5,12.9166925000517
+AH,Material 100mm Normalweight concrete floor 2,0.1016
+AI,Material 100mm Normalweight concrete floor 3,2.31
+AJ,Material 100mm Normalweight concrete floor 4,2322.0
+AK,Material 100mm Normalweight concrete floor 5,832.0
+AL,Material 100mm Normalweight concrete floor 6,0.9
+AM,Material 100mm Normalweight concrete floor 7,0.7
+AN,Material 100mm Normalweight concrete floor 8,0.7
+AO,Material 25mm Stucco 2,0.0254
+AP,Material 25mm Stucco 3,0.719999999999999
+AQ,Material 25mm Stucco 4,1855.99999999999
+AR,Material 25mm Stucco 5,839.999999999997
+AS,Material 25mm Stucco 6,0.9
+AT,Material 25mm Stucco 7,0.7
+AU,Material 25mm Stucco 8,0.7
+AV,Material 4 in. Normalweight Concrete Floor 2,0.1016
+AW,Material 4 in. Normalweight Concrete Floor 3,2.31
+AX,Material 4 in. Normalweight Concrete Floor 4,2321.99999999999
+AY,Material 4 in. Normalweight Concrete Floor 5,831.999999999997
+AZ,Material 4 in. Normalweight Concrete Floor 6,0.9
+BA,Material 4 in. Normalweight Concrete Floor 7,0.7
+BB,Material 4 in. Normalweight Concrete Floor 8,0.7
+BC,Material 5/8 in. Gypsum Board 2,0.0159
+BD,Material 5/8 in. Gypsum Board 3,0.159999999999999
+BE,Material 5/8 in. Gypsum Board 4,799.999999999999
+BF,Material 5/8 in. Gypsum Board 5,1090.0
+BG,Material 5/8 in. Gypsum Board 6,0.9
+BH,Material 5/8 in. Gypsum Board 7,0.7
+BI,Material 5/8 in. Gypsum Board 8,0.7
+BJ,Material 6 in. Normalweight Concrete Floor 2,0.1524
+BK,Material 6 in. Normalweight Concrete Floor 3,2.31
+BL,Material 6 in. Normalweight Concrete Floor 4,2321.99999999999
+BM,Material 6 in. Normalweight Concrete Floor 5,831.999999999997
+BN,Material 6 in. Normalweight Concrete Floor 6,0.9
+BO,Material 6 in. Normalweight Concrete Floor 7,0.7
+BP,Material 6 in. Normalweight Concrete Floor 8,0.7
+BQ,Material 8 in. Concrete Block Basement Wall 2,0.2032
+BR,Material 8 in. Concrete Block Basement Wall 3,1.326
+BS,Material 8 in. Concrete Block Basement Wall 4,1841.99999999999
+BT,Material 8 in. Concrete Block Basement Wall 5,911.999999999999
+BU,Material 8 in. Concrete Block Basement Wall 6,0.9
+BV,Material 8 in. Concrete Block Basement Wall 7,0.7
+BW,Material 8 in. Concrete Block Basement Wall 8,0.7
+BX,Material F08 Metal surface 2,0.0008
+BY,Material F08 Metal surface 3,45.2800000000001
+BZ,Material F08 Metal surface 4,7823.99999999999
+CA,Material F08 Metal surface 5,500.0
+CB,Material F08 Metal surface 6,0.9
+CC,Material F08 Metal surface 7,0.7
+CD,Material F08 Metal surface 8,0.7
+CE,Material G01 13mm gypsum board 2,0.0127
+CF,Material G01 13mm gypsum board 3,0.16
+CG,Material G01 13mm gypsum board 4,800.0
+CH,Material G01 13mm gypsum board 5,1090.0
+CI,Material G01 13mm gypsum board 6,0.9
+CJ,Material G01 13mm gypsum board 7,0.7
+CK,Material G01 13mm gypsum board 8,0.5
+CL,Material G05 25mm wood 2,0.0254
+CM,Material G05 25mm wood 3,0.15
+CN,Material G05 25mm wood 4,608.0
+CO,Material G05 25mm wood 5,1630.0
+CP,Material G05 25mm wood 6,0.9
+CQ,Material G05 25mm wood 7,0.5
+CR,Material G05 25mm wood 8,0.5
+CS,Material M10 200mm concrete block basement wall 2,0.2032
+CT,Material M10 200mm concrete block basement wall 3,1.326
+CU,Material M10 200mm concrete block basement wall 4,1842.0
+CV,Material M10 200mm concrete block basement wall 5,912.0
+CW,Material M10 200mm concrete block basement wall 6,0.9
+CX,Material M10 200mm concrete block basement wall 7,0.7
+CY,Material M10 200mm concrete block basement wall 8,0.7
+CZ,Material Std Wood 6inch 2,0.15
+DA,Material Std Wood 6inch 3,0.12
+DB,Material Std Wood 6inch 4,540.0
+DC,Material Std Wood 6inch 5,1210.0
+DD,Material Std Wood 6inch 6,0.9
+DE,Material Std Wood 6inch 7,0.7
+DF,Material Std Wood 6inch 8,0.7
+DG,Material:NoMass CP02 CARPET PAD 2,0.21648
+DH,Material:NoMass CP02 CARPET PAD 3,0.9
+DI,Material:NoMass CP02 CARPET PAD 4,0.7
+DJ,Material:NoMass CP02 CARPET PAD 5,0.8
+DK,Material:NoMass Nonres_Floor_Insulation 2,2.88291975297193
+DL,Material:NoMass Nonres_Floor_Insulation 3,0.9
+DM,Material:NoMass Nonres_Floor_Insulation 4,0.7
+DN,Material:NoMass Nonres_Floor_Insulation 5,0.7
+DO,Material:NoMass Typical Carpet Pad 2,0.216479986995276
+DP,Material:NoMass Typical Carpet Pad 3,0.9
+DQ,Material:NoMass Typical Carpet Pad 4,0.7
+DR,Material:NoMass Typical Carpet Pad 5,0.8
+DS,Material:NoMass Typical Insulation 2,0.0282222222222221
+DT,Material:NoMass Typical Insulation 3,0.9
+DU,Material:NoMass Typical Insulation 4,0.7
+DV,Material:NoMass Typical Insulation 5,0.7
+DW,Material:NoMass Typical Insulation R-0.54 2,0.0945032650887796
+DX,Material:NoMass Typical Insulation R-0.54 3,0.9
+DY,Material:NoMass Typical Insulation R-0.54 4,0.7
+DZ,Material:NoMass Typical Insulation R-0.54 5,0.7
+EA,Material:NoMass Typical Insulation R-0.58 2,0.101874652714525
+EB,Material:NoMass Typical Insulation R-0.58 3,0.9
+EC,Material:NoMass Typical Insulation R-0.58 4,0.7
+ED,Material:NoMass Typical Insulation R-0.58 5,0.7
+EE,Material:NoMass Typical Insulation R-27.78 2,4.89189838823363
+EF,Material:NoMass Typical Insulation R-27.78 3,0.9
+EG,Material:NoMass Typical Insulation R-27.78 4,0.7
+EH,Material:NoMass Typical Insulation R-27.78 5,0.7
+EI,Material:NoMass Typical Insulation R-5.89 2,1.03652198288505
+EJ,Material:NoMass Typical Insulation R-5.89 3,0.9
+EK,Material:NoMass Typical Insulation R-5.89 4,0.7
+EL,Material:NoMass Typical Insulation R-5.89 5,0.7
+EM,People FullServiceRestaurant Dining People 5,0.753473729169681
+EN,People FullServiceRestaurant Kitchen People 5,0.0538195520835486
+EO,PlantLoop Main Service Water Loop 5,60.0
+EP,PlantLoop Main Service Water Loop 6,10.0
+EQ,PlantLoop Service Water Loop 5,100.0
+ER,PlantLoop Service Water Loop 6,0.0
+ES,Pump:ConstantSpeed Booster Water Loop Pump 4,0.0
+ET,Pump:ConstantSpeed Booster Water Loop Pump 6,1.0
+EU,Pump:ConstantSpeed Service Water Loop Pump 4,29891.0
+EV,Pump:ConstantSpeed Service Water Loop Pump 6,0.825
+EW,Refrigeration:Case Kitchen ZN Display Case 3,23.8888888888889
+EX,Refrigeration:Case Kitchen ZN Display Case 4,55.0
+EY,Refrigeration:Case Kitchen ZN Display Case 5,734.0
+EZ,Refrigeration:Case Kitchen ZN Display Case 6,0.08
+FA,Refrigeration:Case Kitchen ZN Display Case 7,0.85
+FB,Refrigeration:Case Kitchen ZN Display Case 8,3.05
+FC,Refrigeration:Case Kitchen ZN Display Case 9,2.00000000000006
+FD,Refrigeration:Case Kitchen ZN Display Case 12,66.0
+FE,Refrigeration:Case Kitchen ZN Display Case 13,66.0
+FF,Refrigeration:Case Kitchen ZN Display Case 14,33.0
+FG,Refrigeration:Case Kitchen ZN Display Case 24,0.0
+FH,Refrigeration:Case Kitchen ZN Walkin Freezer 3,23.8888888888889
+FI,Refrigeration:Case Kitchen ZN Walkin Freezer 4,55.0
+FJ,Refrigeration:Case Kitchen ZN Walkin Freezer 5,688.0
+FK,Refrigeration:Case Kitchen ZN Walkin Freezer 6,0.1
+FL,Refrigeration:Case Kitchen ZN Walkin Freezer 7,0.4
+FM,Refrigeration:Case Kitchen ZN Walkin Freezer 8,2.44
+FN,Refrigeration:Case Kitchen ZN Walkin Freezer 9,-23.0
+FO,Refrigeration:Case Kitchen ZN Walkin Freezer 12,74.0
+FP,Refrigeration:Case Kitchen ZN Walkin Freezer 13,74.0
+FQ,Refrigeration:Case Kitchen ZN Walkin Freezer 14,33.0
+FR,Refrigeration:Case Kitchen ZN Walkin Freezer 24,820.0
+FS,Refrigeration:Condenser:AirCooled Refrigeration Condenser Air Cooled 1 4,330.0
+FT,Refrigeration:Condenser:AirCooled Refrigeration Condenser Air Cooled 2 4,330.0
+FU,Schedule:Day:Interval RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Default 4,26.0
+FV,Schedule:Day:Interval RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Default|Sat|Wkdy Day 4,26.0
+FW,Schedule:Day:Interval RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Summer Design Day 4,26.0
+FX,Schedule:Day:Interval RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Summer Design Day 6,30.0
+FY,Schedule:Day:Interval RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Summer Design Day 8,28.0
+FZ,Schedule:Day:Interval RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Summer Design Day 10,26.0
+GA,Schedule:Day:Interval RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Winter Design Day 4,30.0
+GB,Schedule:Day:Interval RestaurantSitDown CLGSETP_SCH_NO_SETBACK Default 4,24.0
+GC,Schedule:Day:Interval RestaurantSitDown CLGSETP_SCH_NO_SETBACK Default|Sat|Wkdy Day 4,24.0
+GD,Schedule:Day:Interval RestaurantSitDown CLGSETP_SCH_NO_SETBACK Summer Design Day 4,30.0
+GE,Schedule:Day:Interval RestaurantSitDown CLGSETP_SCH_NO_SETBACK Summer Design Day 6,26.0
+GF,Schedule:Day:Interval RestaurantSitDown CLGSETP_SCH_NO_SETBACK Summer Design Day 8,24.0
+GG,Schedule:Day:Interval RestaurantSitDown CLGSETP_SCH_NO_SETBACK Winter Design Day 4,30.0
+GH,Schedule:Day:Interval RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default 4,19.0
+GI,Schedule:Day:Interval RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default 6,15.6
+GJ,Schedule:Day:Interval RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default 8,19.0
+GK,Schedule:Day:Interval RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day 4,19.0
+GL,Schedule:Day:Interval RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day 6,15.6
+GM,Schedule:Day:Interval RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day 8,19.0
+GN,Schedule:Day:Interval RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Summer Design Day 4,15.6
+GO,Schedule:Day:Interval RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Winter Design Day 4,19.0
+GP,Schedule:Day:Interval RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default 4,15.6
+GQ,Schedule:Day:Interval RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default 6,21.0
+GR,Schedule:Day:Interval RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day 4,15.6
+GS,Schedule:Day:Interval RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day 6,21.0
+GT,Schedule:Day:Interval RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Summer Design Day 4,15.6
+GU,Schedule:Day:Interval RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Winter Design Day 4,21.0
+GV,Sizing:Parameters  0,1.2
+GW,Sizing:Parameters  1,1.2
+GX,Sizing:System Dining ZN PSZ-AC 4,7.0
+GY,Sizing:System Dining ZN PSZ-AC 5,0.008
+GZ,Sizing:System Dining ZN PSZ-AC 6,12.8
+HA,Sizing:System Dining ZN PSZ-AC 7,0.008
+HB,Sizing:System Dining ZN PSZ-AC 8,12.8
+HC,Sizing:System Dining ZN PSZ-AC 9,40.0
+HD,Sizing:System Dining ZN PSZ-AC 13,0.0085
+HE,Sizing:System Dining ZN PSZ-AC 14,0.008
+HF,Sizing:System Dining ZN PSZ-AC 17,0.0099676501
+HG,Sizing:System Dining ZN PSZ-AC 18,1.0
+HH,Sizing:System Dining ZN PSZ-AC 19,3.9475456e-05
+HI,Sizing:System Dining ZN PSZ-AC 22,0.0099676501
+HJ,Sizing:System Dining ZN PSZ-AC 23,1.0
+HK,Sizing:System Dining ZN PSZ-AC 24,1.0
+HL,Sizing:System Dining ZN PSZ-AC 25,3.1588213e-05
+HM,Sizing:System Dining ZN PSZ-AC 27,1.0
+HN,Sizing:System Dining ZN PSZ-AC 30,234.7
+HO,Sizing:System Dining ZN PSZ-AC 31,1.0
+HP,Sizing:System Dining ZN PSZ-AC 34,157.0
+HQ,Sizing:System Dining ZN PSZ-AC 35,1.0
+HR,Sizing:System Kitchen ZN PSZ-AC 4,7.0
+HS,Sizing:System Kitchen ZN PSZ-AC 5,0.008
+HT,Sizing:System Kitchen ZN PSZ-AC 6,12.8
+HU,Sizing:System Kitchen ZN PSZ-AC 7,0.008
+HV,Sizing:System Kitchen ZN PSZ-AC 8,12.8
+HW,Sizing:System Kitchen ZN PSZ-AC 9,40.0
+HX,Sizing:System Kitchen ZN PSZ-AC 13,0.0085
+HY,Sizing:System Kitchen ZN PSZ-AC 14,0.008
+HZ,Sizing:System Kitchen ZN PSZ-AC 17,0.0099676501
+IA,Sizing:System Kitchen ZN PSZ-AC 18,1.0
+IB,Sizing:System Kitchen ZN PSZ-AC 19,3.9475456e-05
+IC,Sizing:System Kitchen ZN PSZ-AC 22,0.0099676501
+ID,Sizing:System Kitchen ZN PSZ-AC 23,1.0
+IE,Sizing:System Kitchen ZN PSZ-AC 24,1.0
+IF,Sizing:System Kitchen ZN PSZ-AC 25,3.1588213e-05
+IG,Sizing:System Kitchen ZN PSZ-AC 27,1.0
+IH,Sizing:System Kitchen ZN PSZ-AC 30,234.7
+II,Sizing:System Kitchen ZN PSZ-AC 31,1.0
+IJ,Sizing:System Kitchen ZN PSZ-AC 34,157.0
+IK,Sizing:System Kitchen ZN PSZ-AC 35,1.0
+IL,Sizing:Zone Dining ZN 2,12.8
+IM,Sizing:Zone Dining ZN 3,11.11
+IN,Sizing:Zone Dining ZN 5,40.0
+IO,Sizing:Zone Dining ZN 6,11.11
+IP,Sizing:Zone Dining ZN 7,0.0085
+IQ,Sizing:Zone Dining ZN 8,0.008
+IR,Sizing:Zone Dining ZN 14,0.007111554
+IS,Sizing:Zone Dining ZN 19,0.002032
+IT,Sizing:Zone Dining ZN 20,0.1415762
+IU,Sizing:Zone Dining ZN 21,0.3
+IV,Sizing:Zone Kitchen ZN 2,12.8
+IW,Sizing:Zone Kitchen ZN 3,11.11
+IX,Sizing:Zone Kitchen ZN 5,40.0
+IY,Sizing:Zone Kitchen ZN 6,11.11
+IZ,Sizing:Zone Kitchen ZN 7,0.0085
+JA,Sizing:Zone Kitchen ZN 8,0.008
+JB,Sizing:Zone Kitchen ZN 14,0.0
+JC,Sizing:Zone Kitchen ZN 19,0.002032
+JD,Sizing:Zone Kitchen ZN 20,0.1415762
+JE,Sizing:Zone Kitchen ZN 21,0.3
+JF,WaterHeater:Mixed 200.0gal Natural Gas Water Heater - 200kBtu/hr 0.807 Therm Eff 1,0.75708235679397
+JG,WaterHeater:Mixed 200.0gal Natural Gas Water Heater - 200kBtu/hr 0.807 Therm Eff 6,58614.2140344444
+JH,WaterHeater:Mixed 200.0gal Natural Gas Water Heater - 200kBtu/hr 0.807 Therm Eff 11,0.807222539674442
+JI,WaterHeater:Mixed 6.0gal Electricity Booster Water Heater - 27kBtu/hr 1.0 Therm Eff 1,0.0227124707038191
+JJ,WaterHeater:Mixed 6.0gal Electricity Booster Water Heater - 27kBtu/hr 1.0 Therm Eff 6,7999.96100249115
+JK,WaterHeater:Mixed 6.0gal Electricity Booster Water Heater - 27kBtu/hr 1.0 Therm Eff 11,1.0
+JL,WindowMaterial:Glazing Clear 3mm 3,0.00299999999999999
+JM,WindowMaterial:Glazing Clear 3mm 4,0.837
+JN,WindowMaterial:Glazing Clear 3mm 5,0.075
+JO,WindowMaterial:Glazing Clear 3mm 6,0.075
+JP,WindowMaterial:Glazing Clear 3mm 7,0.898
+JQ,WindowMaterial:Glazing Clear 3mm 8,0.081
+JR,WindowMaterial:Glazing Clear 3mm 9,0.081
+JS,WindowMaterial:Glazing Clear 3mm 11,0.84
+JT,WindowMaterial:Glazing Clear 3mm 12,0.84
+JU,WindowMaterial:Glazing Clear 3mm 13,0.9
+JV,WindowMaterial:Glazing Clear 3mm 14,1.0
+JW,WindowMaterial:Glazing ECREF-1 COLORED 6MM 3,0.00599999999999998
+JX,WindowMaterial:Glazing ECREF-1 COLORED 6MM 4,0.099
+JY,WindowMaterial:Glazing ECREF-1 COLORED 6MM 5,0.219
+JZ,WindowMaterial:Glazing ECREF-1 COLORED 6MM 6,0.219
+KA,WindowMaterial:Glazing ECREF-1 COLORED 6MM 7,0.155
+KB,WindowMaterial:Glazing ECREF-1 COLORED 6MM 8,0.073
+KC,WindowMaterial:Glazing ECREF-1 COLORED 6MM 9,0.073
+KD,WindowMaterial:Glazing ECREF-1 COLORED 6MM 11,0.84
+KE,WindowMaterial:Glazing ECREF-1 COLORED 6MM 12,0.84
+KF,WindowMaterial:Glazing ECREF-1 COLORED 6MM 13,0.9
+KG,WindowMaterial:Glazing ECREF-1 COLORED 6MM 14,1.0
+KH,WindowMaterial:Glazing REF B CLEAR HI 6MM 3,0.00599999999999998
+KI,WindowMaterial:Glazing REF B CLEAR HI 6MM 4,0.24
+KJ,WindowMaterial:Glazing REF B CLEAR HI 6MM 5,0.16
+KK,WindowMaterial:Glazing REF B CLEAR HI 6MM 6,0.32
+KL,WindowMaterial:Glazing REF B CLEAR HI 6MM 7,0.3
+KM,WindowMaterial:Glazing REF B CLEAR HI 6MM 8,0.16
+KN,WindowMaterial:Glazing REF B CLEAR HI 6MM 9,0.29
+KO,WindowMaterial:Glazing REF B CLEAR HI 6MM 11,0.84
+KP,WindowMaterial:Glazing REF B CLEAR HI 6MM 12,0.6
+KQ,WindowMaterial:Glazing REF B CLEAR HI 6MM 13,0.9
+KR,WindowMaterial:Glazing REF B CLEAR HI 6MM 14,1.0
+KS,ZoneInfiltration:DesignFlowRate Dining Infiltration 6,0.00102523210129173
+KT,ZoneInfiltration:DesignFlowRate Dining door Infiltration 4,0.614474994
+KU,ZoneInfiltration:DesignFlowRate Kitchen Infiltration 6,0.00102523210129173
+KV,ZoneInfiltration:DesignFlowRate Space Infiltration Design Flow Rate 2 4,0.2378
